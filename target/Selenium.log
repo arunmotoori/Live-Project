@@ -1,0 +1,17 @@
+2018-09-14 18:09:55 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-09-14 18:11:25 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-09-14 18:11:37 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started2677136
+2018-09-14 18:11:38 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the User is able to register into the Application by providing all the fields
+2018-09-14 18:11:38 [INFO ] [Base] - [closeBrowser] Scenario Status is: undefined
+2018-09-14 18:11:41 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started31419319
+2018-09-14 18:11:42 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the User is able to register into the Application by providing all the fields
+2018-09-14 18:11:42 [INFO ] [Base] - [closeBrowser] Scenario Status is: undefined
+2018-09-14 18:16:56 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-09-14 18:17:10 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-09-14 18:17:16 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started802497
+2018-09-14 18:17:17 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the User is able to register into the Application by providing all the fields
+2018-09-14 18:17:17 [INFO ] [Base] - [closeBrowser] Scenario Status is: undefined
+2018-09-14 18:58:28 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-09-14 18:58:34 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started27412892
+2018-09-14 18:58:39 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the User is able to register into the Application by providing all the fields
+2018-09-14 18:58:39 [INFO ] [Base] - [closeBrowser] Scenario Status is: passed

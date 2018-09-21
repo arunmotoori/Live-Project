@@ -15,11 +15,11 @@ public class Elements {
 
 	public Logger log = Logger.getLogger(Elements.class);
 
-	public static void TypeText(WebElement element, String data) {
+	public static void typeText(WebElement element, String data) {
 		element.sendKeys(data);
 	}
 
-	public static void TypeTextIfElementPresent(WebElement element, String data) {
+	public static void typeTextIfElementPresent(WebElement element, String data) {
 		if (element.isDisplayed()) {
 			element.sendKeys(data);
 		}
@@ -91,7 +91,7 @@ public class Elements {
 		return false;
 	}
 	
-	public boolean isDisplayed(WebElement element){
+	public static boolean isDisplayed(WebElement element){
 		if(element.isDisplayed())
 			return true;
 		return false;
@@ -142,7 +142,7 @@ public class Elements {
 		select.deselectByValue(value);
 	}
 	
-	public void click(WebElement element){
+	public static void click(WebElement element){
 		Waits.waitUntil(() ->isDisplayed(element));
 		element.click();
 	}

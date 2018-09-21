@@ -1,107 +1,145 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FeatureFiles/Register.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FeatureFiles/Login.feature");
 formatter.feature({
   "line": 1,
-  "name": "Registraiton functionality scenarios",
+  "name": "Login functionality scenarios",
   "description": "",
-  "id": "registraiton-functionality-scenarios",
+  "id": "login-functionality-scenarios",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 16148845544,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 3,
-  "name": "Verify whether the User is able to register into the Application by providing all the fields",
+  "comments": [
+    {
+      "line": 3,
+      "value": "#Scenario: Verify whether the User is able to login with valid credentials"
+    },
+    {
+      "line": 4,
+      "value": "#\tGiven I launch the application"
+    },
+    {
+      "line": 5,
+      "value": "#\tAnd I navigate to Account Login page"
+    },
+    {
+      "line": 6,
+      "value": "#\tWhen I login to the application using username as \"ravi.kiran1@gmail.com\" and valid password as \"rkiran\""
+    },
+    {
+      "line": 7,
+      "value": "#\tThen I should see that the User should be able to successfully login"
+    },
+    {
+      "line": 9,
+      "value": "#Scenario: Verify that the User is not able to login with invalid credentials"
+    },
+    {
+      "line": 10,
+      "value": "#\tGiven I launch the application"
+    },
+    {
+      "line": 11,
+      "value": "#\tAnd I navigate to Account Login page"
+    },
+    {
+      "line": 12,
+      "value": "#\tWhen I login to the application using username as \"abcd@gmail.com\" and valid password as \"rkiran\""
+    },
+    {
+      "line": 13,
+      "value": "#\tThen I should see an error message informing about invalid credentials"
+    },
+    {
+      "line": 14,
+      "value": "#"
+    },
+    {
+      "line": 15,
+      "value": "#Scenario: Verify that the User is not able to login without providing credentials"
+    },
+    {
+      "line": 16,
+      "value": "#\tGiven I launch the application"
+    },
+    {
+      "line": 17,
+      "value": "#\tAnd I navigate to Account Login page"
+    },
+    {
+      "line": 18,
+      "value": "#\tWhen I login to the application using username as \"\" and valid password as \"\""
+    },
+    {
+      "line": 19,
+      "value": "#\tThen I should see an error message informing about invalid credentials"
+    }
+  ],
+  "line": 21,
+  "name": "Verify whether User is able to reset his forgoten password",
   "description": "",
-  "id": "registraiton-functionality-scenarios;verify-whether-the-user-is-able-to-register-into-the-application-by-providing-all-the-fields",
+  "id": "login-functionality-scenarios;verify-whether-user-is-able-to-reset-his-forgoten-password",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 4,
+  "line": 22,
   "name": "I launch the application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
-  "name": "I navigate to Account Registration page",
+  "line": 23,
+  "name": "I navigate to Account Login page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 6,
-  "name": "I provide all the below valid details",
-  "rows": [
-    {
-      "cells": [
-        "FirstName",
-        "LastName",
-        "Email",
-        "Telephone",
-        "Password"
-      ],
-      "line": 7
-    },
-    {
-      "cells": [
-        "Ravi",
-        "Kiran",
-        "ravi.kiran@gmail.com",
-        "9243812312",
-        "rkiran"
-      ],
-      "line": 8
-    }
-  ],
+  "line": 24,
+  "name": "I reset the forgoten password for the email address \"ravi.kiran@gmail.com\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "I select the Privacy policy",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "I click on Continue button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "I should see that the User Account has successfully created",
+  "line": 25,
+  "name": "I should see a message informing that the details have been sent to the email address",
   "keyword": "Then "
 });
 formatter.match({
   "location": "Register.i_launch_the_application()"
 });
 formatter.result({
-  "duration": 249609980,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.tutorialsninja.automation.stepdef.Register.i_launch_the_application(Register.java:18)\r\n\tat ✽.Given I launch the application(FeatureFiles/Register.feature:4)\r\n",
-  "status": "failed"
+  "duration": 13458703355,
+  "status": "passed"
 });
 formatter.match({
-  "location": "Register.i_navigate_to_Account_Registration_page()"
+  "location": "Login.i_navigate_to_Account_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4243266855,
+  "status": "passed"
 });
 formatter.match({
-  "location": "Register.i_provide_all_the_below_valid_details(DataTable)"
+  "arguments": [
+    {
+      "val": "ravi.kiran@gmail.com",
+      "offset": 53
+    }
+  ],
+  "location": "Login.i_reset_the_forgoten_password_for_the_email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2840150550,
+  "status": "passed"
 });
 formatter.match({
-  "location": "Register.i_select_the_Privacy_policy()"
+  "location": "Login.i_should_see_a_message_informing_that_the_details_have_been_sent_to_the_email_address()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 68395558,
+  "status": "passed"
 });
-formatter.match({
-  "location": "Register.i_click_on_Continue_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "Register.i_should_see_that_the_User_Account_has_successfully_created()"
-});
-formatter.result({
-  "status": "skipped"
+formatter.after({
+  "duration": 2224693160,
+  "status": "passed"
 });
 });

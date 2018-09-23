@@ -1,12 +1,9 @@
 package com.tutorialsninja.automation.config;
 
-
 import java.io.IOException;
 import java.util.Properties;
 
 import com.tutorialsninja.automation.util.PathHelper;
-
-
 
 public class PropertyFileReader implements ConfigurationReader{
 	
@@ -33,5 +30,25 @@ public class PropertyFileReader implements ConfigurationReader{
 		return Integer.parseInt(properties.getProperty("PageLoadTimeOut"));
 	}
 
+	@Override
+	public String getUsername() {
+		
+		return properties.getProperty("username");
+		
+	}
+
+	@Override
+	public String getPassword() {
+		
+		return properties.getProperty("password");
 	
+	}
+
+	@Override
+	public String getProduct() {
+		
+		return properties.getProperty("product");
+		
+	}
+
 	}

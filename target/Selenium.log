@@ -309,3 +309,138 @@
 2018-09-20 19:00:59 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started22558129
 2018-09-20 19:01:23 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether User is able to reset his forgoten password
 2018-09-20 19:01:23 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-09-21 13:14:34 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product we have searched is not available
+2018-09-21 13:14:34 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 13:15:09 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-21 13:21:11 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product we have searched is not available
+2018-09-21 13:21:11 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 13:21:38 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-21 13:22:04 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product we have searched is not available
+2018-09-21 13:22:04 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2018-09-21 15:30:52 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product we are searching is not available
+2018-09-21 15:30:52 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 15:30:56 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2018-09-21 15:52:40 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product we are searching is not available
+2018-09-21 15:52:41 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 15:53:00 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-21 15:53:41 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product we are searching is not available
+2018-09-21 15:53:41 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-09-21 16:23:35 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-21 16:23:35 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 16:23:52 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started11599061
+2018-09-21 16:23:55 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-21 16:23:55 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2018-09-21 20:00:10 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-21 20:00:10 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 20:00:22 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-21 20:01:38 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-21 20:01:38 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 20:01:55 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-21 20:02:36 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-21 20:02:36 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-21 20:08:46 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-21 20:08:46 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-21 20:09:10 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 17:44:06 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 17:44:06 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 17:44:21 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 17:44:35 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 17:44:35 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 17:53:54 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 17:53:54 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 17:54:07 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 17:54:25 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 17:54:25 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 17:57:10 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 17:57:33 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 17:58:58 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 17:59:24 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 17:59:43 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:00:08 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:00:08 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:00:20 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:00:37 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:00:37 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:00:53 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:00:53 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:01:04 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started24921174
+2018-09-23 18:08:50 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:08:50 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:09:01 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:09:24 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:09:24 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:10:51 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:10:51 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:11:02 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:11:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:11:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:12:10 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:12:10 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:12:22 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:12:45 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:12:45 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:14:00 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:14:00 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:14:11 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started24921174
+2018-09-23 18:17:30 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:17:30 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:17:42 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started24921174
+2018-09-23 18:23:22 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:23:22 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:23:33 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:23:56 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:23:56 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:24:32 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:24:32 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:24:43 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started24921174
+2018-09-23 18:25:33 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:25:33 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:25:46 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started24921174
+2018-09-23 18:26:51 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:26:51 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:27:02 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:27:16 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:27:16 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:27:41 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:27:41 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:27:52 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:28:06 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:28:06 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:29:18 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:29:18 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:29:29 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started24921174
+2018-09-23 18:30:59 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:30:59 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:31:11 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started24921174
+2018-09-23 18:34:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:34:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-09-23 18:34:35 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:34:35 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:34:46 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:35:00 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:35:00 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:38:10 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:38:10 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:38:21 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:38:34 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:38:34 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:38:56 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:38:56 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:39:06 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:39:20 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:39:20 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:47:20 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:47:20 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:47:30 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:47:44 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:47:44 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-09-23 18:50:04 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:50:04 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:50:15 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:50:39 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:50:39 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-09-23 18:50:50 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether user is able to place an order
+2018-09-23 18:50:51 [INFO ] [Browser] - [startBrowser] Selected Browser is: firefox
+2018-09-23 18:51:00 [INFO ] [Browser] - [startBrowser] Firefox Browser is Started28152999
+2018-09-23 18:51:24 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether user is able to place an order
+2018-09-23 18:51:24 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed

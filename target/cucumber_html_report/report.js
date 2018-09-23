@@ -1,145 +1,73 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FeatureFiles/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FeatureFiles/Orders.feature");
 formatter.feature({
   "line": 1,
-  "name": "Login functionality scenarios",
+  "name": "End to end scenarios for placing orders",
   "description": "",
-  "id": "login-functionality-scenarios",
+  "id": "end-to-end-scenarios-for-placing-orders",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 16148845544,
+  "duration": 13676374326,
   "status": "passed"
 });
 formatter.scenario({
-  "comments": [
-    {
-      "line": 3,
-      "value": "#Scenario: Verify whether the User is able to login with valid credentials"
-    },
-    {
-      "line": 4,
-      "value": "#\tGiven I launch the application"
-    },
-    {
-      "line": 5,
-      "value": "#\tAnd I navigate to Account Login page"
-    },
-    {
-      "line": 6,
-      "value": "#\tWhen I login to the application using username as \"ravi.kiran1@gmail.com\" and valid password as \"rkiran\""
-    },
-    {
-      "line": 7,
-      "value": "#\tThen I should see that the User should be able to successfully login"
-    },
-    {
-      "line": 9,
-      "value": "#Scenario: Verify that the User is not able to login with invalid credentials"
-    },
-    {
-      "line": 10,
-      "value": "#\tGiven I launch the application"
-    },
-    {
-      "line": 11,
-      "value": "#\tAnd I navigate to Account Login page"
-    },
-    {
-      "line": 12,
-      "value": "#\tWhen I login to the application using username as \"abcd@gmail.com\" and valid password as \"rkiran\""
-    },
-    {
-      "line": 13,
-      "value": "#\tThen I should see an error message informing about invalid credentials"
-    },
-    {
-      "line": 14,
-      "value": "#"
-    },
-    {
-      "line": 15,
-      "value": "#Scenario: Verify that the User is not able to login without providing credentials"
-    },
-    {
-      "line": 16,
-      "value": "#\tGiven I launch the application"
-    },
-    {
-      "line": 17,
-      "value": "#\tAnd I navigate to Account Login page"
-    },
-    {
-      "line": 18,
-      "value": "#\tWhen I login to the application using username as \"\" and valid password as \"\""
-    },
-    {
-      "line": 19,
-      "value": "#\tThen I should see an error message informing about invalid credentials"
-    }
-  ],
-  "line": 21,
-  "name": "Verify whether User is able to reset his forgoten password",
+  "line": 3,
+  "name": "Verify whether user is able to place an order",
   "description": "",
-  "id": "login-functionality-scenarios;verify-whether-user-is-able-to-reset-his-forgoten-password",
+  "id": "end-to-end-scenarios-for-placing-orders;verify-whether-user-is-able-to-place-an-order",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 22,
-  "name": "I launch the application",
+  "line": 4,
+  "name": "I login to the application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 23,
-  "name": "I navigate to Account Login page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "I reset the forgoten password for the email address \"ravi.kiran@gmail.com\"",
+  "line": 5,
+  "name": "I add any product to Bag and checkout",
   "keyword": "When "
 });
 formatter.step({
-  "line": 25,
-  "name": "I should see a message informing that the details have been sent to the email address",
+  "line": 6,
+  "name": "I place an order",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "I should see that the order is placed successfully",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Register.i_launch_the_application()"
+  "location": "Orders.i_login_to_the_application()"
 });
 formatter.result({
-  "duration": 13458703355,
+  "duration": 6850212610,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.i_navigate_to_Account_Login_page()"
+  "location": "Orders.i_add_any_product_to_Bag_and_checkout()"
 });
 formatter.result({
-  "duration": 4243266855,
+  "duration": 10212368858,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "ravi.kiran@gmail.com",
-      "offset": 53
-    }
-  ],
-  "location": "Login.i_reset_the_forgoten_password_for_the_email_address(String)"
+  "location": "Orders.i_place_an_order()"
 });
 formatter.result({
-  "duration": 2840150550,
+  "duration": 1516480803,
   "status": "passed"
 });
 formatter.match({
-  "location": "Login.i_should_see_a_message_informing_that_the_details_have_been_sent_to_the_email_address()"
+  "location": "Orders.i_should_see_that_the_order_is_placed_successfully()"
 });
 formatter.result({
-  "duration": 68395558,
+  "duration": 1364196916,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2224693160,
+  "duration": 2164911270,
   "status": "passed"
 });
 });

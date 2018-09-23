@@ -38,6 +38,14 @@ public class LoginPage {
 		
 	}
 	
+	public static void doLogin() {
+		
+		 Elements.typeText(emailField, Base.reader.getUsername());
+	     Elements.typeText(passwordField, Base.reader.getPassword());
+	     Elements.click(loginButton);		
+		
+	}
+	
 	public static boolean verifyErrorMessages(){
 		
 		boolean x = Elements.VerifyTextEquals(warningMessage,"Warning: No match for E-Mail Address and/or Password.");
@@ -46,6 +54,4 @@ public class LoginPage {
 		
 	}
 	
-	
-
 }

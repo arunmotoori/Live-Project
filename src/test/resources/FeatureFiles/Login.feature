@@ -1,10 +1,10 @@
 Feature: Login functionality scenarios
 
-#Scenario: Verify whether the User is able to login with valid credentials
-#	Given I launch the application
-#	And I navigate to Account Login page
-#	When I login to the application using username as "ravi.kiran1@gmail.com" and valid password as "rkiran"
-#	Then I should see that the User should be able to successfully login
+Scenario: Verify whether the User is able to login with valid credentials
+	Given I launch the application
+	And I navigate to Account Login page
+	When I login to the application using username as "ravi.kiran1@gmail.com" and valid password as "rkiran"
+	Then I should see that the User should be able to successfully login
 	
 #Scenario: Verify that the User is not able to login with invalid credentials
 #	Given I launch the application

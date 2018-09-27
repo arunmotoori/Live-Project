@@ -20,7 +20,7 @@ public class Login {
 	
 	@And("^I navigate to Account Login page$")
 	public void i_navigate_to_Account_Login_page() {
-		
+		Waits.waitUntilElementToClick(50, HeadersPage.myAccountLink);
 		Elements.click(HeadersPage.myAccountLink);
 		Elements.click(HeadersPage.login);
 	   

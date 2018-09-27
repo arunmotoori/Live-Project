@@ -19,8 +19,8 @@ public class Login {
 	ForgotPasswordPage forgotPasswordPage = new ForgotPasswordPage();
 	
 	@And("^I navigate to Account Login page$")
-	public void i_navigate_to_Account_Login_page(){
-		
+	public void i_navigate_to_Account_Login_page() throws InterruptedException{
+		Thread.sleep(10000);
 		Elements.click(HeadersPage.myAccountLink);
 		Elements.click(HeadersPage.login);
 	   
